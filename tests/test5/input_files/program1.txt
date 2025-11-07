@@ -1,0 +1,3 @@
+CPU, 20
+EXEC program2, 60
+CPU, 888

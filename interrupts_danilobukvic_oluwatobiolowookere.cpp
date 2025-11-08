@@ -155,7 +155,7 @@ simulate_trace(std::vector<std::string> trace_file,
             auto [child_exec, child_stat, child_done] =
                 simulate_trace(child_trace, now, vectors, delays, external_files, current, wait_queue);
 
-            exec_log << child_exec.str();
+            exec_log << child_exec;
             status_log << child_stat;
             now = child_done;
 
